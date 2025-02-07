@@ -30,7 +30,6 @@ function init() {
   var canvas = document.getElementById("heart");
   var ctx = canvas.getContext("2d");
 
-  // Adjust for high DPI displays
   var dpr = window.devicePixelRatio || 1;
   var rect = canvas.getBoundingClientRect();
   canvas.width = rect.width * dpr;
